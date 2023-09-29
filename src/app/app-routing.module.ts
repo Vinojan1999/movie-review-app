@@ -8,8 +8,7 @@ const routes: Routes = [
   { path: '', redirectTo: 'login', pathMatch: 'full' },       // There is no path, redirect to the login route. (Make sure you add the pathMatch when you use empty route with redirect to.)
   { path: 'login', component: LoginComponent },
   { path: 'home', component: HomeComponent },
-  { path: 'movie', component: MovieComponent },
-  { path: 'movie', component: MovieComponent },
+  { path: 'movie/:type/:id', component: MovieComponent },
   { path: '**', component: LoginComponent }       // Show the Login page when non of the path matches using the wild card route. (Should be the last route always)
 ];
 

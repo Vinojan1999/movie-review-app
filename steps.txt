@@ -40,3 +40,7 @@
 -   Import the modu;e to use this library
 -   Create a feature module (ng g m feature)
 -   Create a component for rating (ng g c feature/star-rating)
+
+-   Write goToMovie function
+-   Modify app route with params (movie/:type/:id)
+-   In the home page, Wherever needed add the click event
