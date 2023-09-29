@@ -8,6 +8,8 @@
 -   Configure the routing (app-routing.module.ts)
 -   Add the router-outlet to app.component.html
 
+# Login Page
+
 -   Add login content and import the font to global SCSS (src/styles.scss)
 -   Import all assets 
 -   Design the login form container
@@ -22,3 +24,19 @@
 -   In the login.component.ts invoke function in the function of auth.service.ts, for that Inject the auth.service in the constructor of the auth.component
 -   call the auth.service 'login' function 
 -   Inject the router into the auth.component constructor and use to navigate after the login
+
+
+# Home & Header
+
+-   Design the header
+-   Add the 'app-header' into home.component.html
+-   Create the function to logout in auth.service.ts
+-   Design the Home page
+-   To get the data from the JSON file, create a function (getTrendingMovies()) and call the function in ngOnInit() hook.
+-   Inside the function, Use HTTP client to get the JSON
+-   Get the data from API and store it on a variable
+-   To use the HttpClient, Import the HttpClientModule into app.module.ts
+-   Install @ng-bootstrap/ng-bootstrap
+-   Import the modu;e to use this library
+-   Create a feature module (ng g m feature)
+-   Create a component for rating (ng g c feature/star-rating)
