@@ -44,3 +44,9 @@
 -   Write goToMovie function
 -   Modify app route with params (movie/:type/:id)
 -   In the home page, Wherever needed add the click event
+
+
+# Movie page
+
+-   Structure the page
+-   Get the movie details
