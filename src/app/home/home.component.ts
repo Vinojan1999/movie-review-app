@@ -24,7 +24,7 @@ export class HomeComponent {
 
   getTreandingMovies() {
     this.http
-      .get('http://localhost:4200/assets/data/trending-movies.json')
+      .get('https://movie-review-app-lac.vercel.app/assets/data/trending-movies.json')
       .subscribe((movies) => {
         this.trendingMovies = movies;
         console.log("Trending Movies",this.trendingMovies);
@@ -33,7 +33,7 @@ export class HomeComponent {
 
   getTheatreMovies() {
     this.http
-      .get('http://localhost:4200/assets/data/theatre-movies.json')
+      .get('https://movie-review-app-lac.vercel.app/assets/data/theatre-movies.json')
       .subscribe((movies) => {
         this.theatreMovies = movies;
         console.log("Theatre Movies",this.theatreMovies);
@@ -42,7 +42,7 @@ export class HomeComponent {
 
   getPopularMovies() {
     this.http
-      .get('http://localhost:4200/assets/data/popular-movies.json')
+      .get('https://movie-review-app-lac.vercel.app/assets/data/popular-movies.json')
       .subscribe((movies) => {
         this.popularMovies = movies;
         console.log("Popular Movies",this.popularMovies);
