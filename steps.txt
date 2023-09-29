@@ -1,0 +1,9 @@
+-   Created the Angular app with SCSS (ng new moview-review-app)
+-   Intall Bootstrap
+-   Configure the Bootstrap in angular.json
+-   Start the server (ng serve)
+-   Create a component (ng generate component login / ng g c login)
+    login, home, header, movie
+
+-   Configure the routing (app-routing.module.ts)
+-   Add the router-outlet to app.component.html
