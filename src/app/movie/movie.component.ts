@@ -22,13 +22,13 @@ export class MovieComponent {
     this.id = this.route.snapshot.params['id'];
 
     if (this.type === 'trending') {
-      this.url = 'http://localhost:4200/assets/data/trending-movies.json'
+      this.url = 'https://movie-review-app-lac.vercel.app/assets/data/trending-movies.json'
     }
     if (this.type === 'theatre') {
-      this.url = 'http://localhost:4200/assets/data/theatre-movies.json'
+      this.url = 'https://movie-review-app-lac.vercel.app/assets/data/theatre-movies.json'
     }
     if (this.type === 'popular') {
-      this.url = 'http://localhost:4200/assets/data/popular-movies.json'
+      this.url = 'https://movie-review-app-lac.vercel.app/assets/data/popular-movies.json'
     }
 
     this.getMovie();
