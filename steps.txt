@@ -7,3 +7,18 @@
 
 -   Configure the routing (app-routing.module.ts)
 -   Add the router-outlet to app.component.html
+
+-   Add login content and import the font to global SCSS (src/styles.scss)
+-   Import all assets 
+-   Design the login form container
+-   Use the 'Databinding concept' to get the username and password which is hardcoded within the code. (ngModel)
+-   To use ngModel, I need to import the 'Forms module' into the 'app.module.ts'
+-   Initialise the 'username' and 'password' into 'login.component.ts'
+-   Write the 'login()' function
+
+-   create the services folder into the 'src/app'
+-   inside the folder, create the service using cli (ng g s services/auth) Specified the folder
+-   In the 'auth.service.ts', create a function 'login' which accept both username and password. (Hard code the logic here)
+-   In the login.component.ts invoke function in the function of auth.service.ts, for that Inject the auth.service in the constructor of the auth.component
+-   call the auth.service 'login' function 
+-   Inject the router into the auth.component constructor and use to navigate after the login
